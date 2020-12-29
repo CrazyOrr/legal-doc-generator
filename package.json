@@ -12,7 +12,8 @@
     "bootstrap-vue": "^2.21.1",
     "core-js": "^3.6.5",
     "turndown": "^7.0.0",
-    "vue": "^2.6.12"
+    "vue": "^2.6.12",
+    "vue-gtag": "^1.10.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

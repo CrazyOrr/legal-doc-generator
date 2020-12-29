@@ -30,11 +30,10 @@ export default {
   },
   methods: {
     handleLinkClick: function (event) {
-      console.log(event.target.href)
-      // this.$gtag.event('open_link', {
-      //   'event_category': 'engagement',
-      //   'event_label': event.target.href,
-      // })
+      this.$gtag.event('open_link', {
+        'event_category': 'engagement',
+        'event_label': event.target.href,
+      })
     }
   }
 }
