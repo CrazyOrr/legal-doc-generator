@@ -364,7 +364,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #result {
-  max-height: 80vh;
+  max-height: 77vh;
 }
 
 #preview {
