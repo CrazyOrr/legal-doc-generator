@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Navbar/>
-    <PrivacyPolicy/>
+    <div id="content-wrapper">
+      <PrivacyPolicy/>
+    </div>
     <Footer/>
   </div>
 </template>
@@ -23,4 +25,13 @@ export default {
 </script>
 
 <style>
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#content-wrapper {
+  flex: 1;
+}
 </style>
