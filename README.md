@@ -1,4 +1,5 @@
 # legal-doc-generator
+Privacy policy generator for China
 
 ## Project setup
 ```
