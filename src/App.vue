@@ -3,6 +3,13 @@
     <Navbar/>
     <div id="content-wrapper">
       <PrivacyPolicy/>
+      <Adsense
+          root-class="container"
+          insClass="my-3"
+          data-ad-client="ca-pub-6356587960052012"
+          data-ad-slot="6767289334"
+          data-full-width-responsive="yes">
+      </Adsense>
     </div>
     <Footer/>
   </div>
